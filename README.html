@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>This is a test website</title>
+<script type="text/javascript">
+   function generateRandomColor()
+	{
+		var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+		var target = document.getElementById("ascii-art");
+		target.style.color = randomColor;
+	}
+</script>
+</head>
+<body onload="generateRandomColor()">
+<h1 style="text-align:center">This is a test website created by <em>S.Jaidheer</em></h1>
+<h2 id="ascii-art" style="text-align:center"><pre>
+   _____         _         _____ _____  _    _ ______ ______ _____  
+  / ____|       | |  /\   |_   _|  __ \| |  | |  ____|  ____|  __ \ 
+ | (___         | | /  \    | | | |  | | |__| | |__  | |__  | |__) |
+  \___ \    _   | |/ /\ \   | | | |  | |  __  |  __| |  __| |  _  / 
+  ____) |  | |__| / ____ \ _| |_| |__| | |  | | |____| |____| | \ \ 
+ |_____(_)  \____/_/    \_\_____|_____/|_|  |_|______|______|_|  \_\
+ 
+</pre></h2> 
+<hr>
+<h3 style="text-align:center"><a href="https://youtu.be/ehcUPBhn4U4">For more information</a></h3>
+</body>
+</html>
+
